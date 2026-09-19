@@ -4,7 +4,7 @@ on:
   schedule:
     # 每天 02:00 UTC（= 北京时间 10:00）抓取当天文件。
     # 注意：GitHub 的 cron 用 UTC，且高峰期可能延迟数分钟到几十分钟。
-    - cron: '0 2 * * *'
+    - cron: '0 */8 * * *'
   workflow_dispatch: {} # 允许在 Actions 页面手动点一下立即运行
 
 permissions:
