@@ -1,0 +1,37 @@
+name: fetch-settings
+
+on:
+  schedule:
+    # 每天 02:00 UTC（= 北京时间 10:00）抓取当天文件。
+    # 注意：GitHub 的 cron 用 UTC，且高峰期可能延迟数分钟到几十分钟。
+    - cron: '0 2 * * *'
+  workflow_dispatch: {} # 允许在 Actions 页面手动点一下立即运行
+
+permissions:
+  contents: write # 需要写权限，才能把 settings.yaml 提交回仓库
+
+concurrency:
+  group: fetch-settings
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest # 预装 PHP，无需额外安装
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch today's settings.yaml
+        run: php fetch.php
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add settings.yaml
+          if git diff --staged --quiet; then
+            echo "settings.yaml 无变化，跳过提交。"
+          else
+            git commit -m "chore: update settings.yaml $(date -u +'%Y-%m-%d')"
+            git push
+          fi
