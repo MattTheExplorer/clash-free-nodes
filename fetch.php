@@ -25,6 +25,10 @@ const CURL_TIMEOUT = 15;                                   // 请求超时（秒
 const MAX_BYTES    = 5 * 1024 * 1024;                      // 响应大小上限（5MB）
 /* =================================================== */
 
+/* rules 中的代理策略名：Clash 只内置 DIRECT / REJECT，其余策略名必须是已存在的 proxy-group。
+   源配置没有名为 PROXY 的组，因此把示例 rules 里的 PROXY 统一指向实际存在的「🚀 节点选择」组。 */
+const PROXY_GROUP = '🚀 节点选择';
+
 /* 抓取后：先删除顶层 rules 段，再在文件末尾固定追加 rule-providers 与新的 rules（注意层级缩进） */
 const APPEND_BLOCK = <<<'YAML'
 rule-providers:
@@ -115,15 +119,15 @@ rules:
   - RULE-SET,reject,REJECT
   - RULE-SET,icloud,DIRECT
   - RULE-SET,apple,DIRECT
-  - RULE-SET,google,PROXY
-  - RULE-SET,proxy,PROXY
+  - RULE-SET,google,{{PROXY}}
+  - RULE-SET,proxy,{{PROXY}}
   - RULE-SET,direct,DIRECT
   - RULE-SET,lancidr,DIRECT
   - RULE-SET,cncidr,DIRECT
-  - RULE-SET,telegramcidr,PROXY
+  - RULE-SET,telegramcidr,{{PROXY}}
   - GEOIP,LAN,DIRECT
   - GEOIP,CN,DIRECT
-  - MATCH,PROXY
+  - MATCH,{{PROXY}}
 YAML;
 
 set_time_limit(30);
@@ -237,12 +241,13 @@ if (stripos($body, '<html') !== false
     done(502, "502 内容疑似 HTML / 拦截页，拒绝写入，保留现有 " . OUTPUT_FILE);
 }
 
-/* ---------- 6.5) 删除顶层 rules 段，并追加固定 rule-providers ---------- */
+/* ---------- 6.5) 删除顶层 rules 段，并追加固定 rule-providers 与 rules ---------- */
 if (preg_match('/^rules\s*:/m', $body, $m, PREG_OFFSET_CAPTURE)) {
     $body = substr($body, 0, $m[0][1]); // 截断：删掉 rules 及其后的全部内容
 }
-$body = rtrim($body, "\r\n") . "\n\n" . APPEND_BLOCK . "\n";
-$len  = strlen($body);
+$append = str_replace('{{PROXY}}', PROXY_GROUP, APPEND_BLOCK); // 填入真实代理组名
+$body   = rtrim($body, "\r\n") . "\n\n" . $append . "\n";
+$len    = strlen($body);
 
 /* ---------- 7) 原子覆盖写入 ---------- */
 $finalPath = __DIR__ . '/' . OUTPUT_FILE;
