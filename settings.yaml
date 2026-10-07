@@ -6,20 +6,20 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: 8元老牌专线机场：cczzuu.top, server: 47.244.120.197, port: 23026, type: vmess, udp: true, uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /arki, headers: {Host: 47.244.120.197}}}
-  - {name: "🇺🇸 美国_6JQZJQ", server: us22.sofast.live, port: 58011, type: vless, uuid: 0afc6426-606c-48e7-bd70-3c424a416842, tls: false, tfo: false, skip-cert-verify: false, network: tcp, udp: true}
-  - {name: "🇺🇸 美国_SSP6CM", server: jp.sofast.live, port: 52683, type: vless, uuid: 399b6b23-cc40-4831-a494-61948e2df133, tls: false, tfo: false, skip-cert-verify: false, network: tcp, udp: true}
-  - {name: "🇺🇸 美国_TJGX7K", server: 154.51.41.113, port: 2020, type: socks5, udp: true}
-  - {name: "🇩🇪 德国_M3RQMN", server: 2.28.142.170, port: 443, type: vless, uuid: f774f037-6320-42e3-a97b-6d4a1f018dd5, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: IqFTx4k5VQydmffvavaOHDXBtdgDxX26A6NtsVvDfhw, short-id: d485c3d5248d6b51}, servername: germanytest.tulnaro.ir, client-fingerprint: chrome, network: xhttp, udp: true}
-  - {name: "🇩🇪 德国_SW56HK", server: 46.225.255.204, port: 39100, type: vless, uuid: "@ZhilaVPN", tls: false, tfo: false, skip-cert-verify: false, network: tcp, udp: true}
-  - {name: "🇳🇱 荷兰_ZNHQ56", server: 157.228.150.34, port: 443, type: vless, uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: NOw-idkk3OCn-N0IRS93leujH4ik-E749O2T5BYJQ0M, short-id: 3cef317b}, servername: addons.mozilla.org, client-fingerprint: randomized, network: tcp, udp: true}
-  - {name: "🇳🇱 荷兰_0YG49P", server: 2.27.39.233, port: 443, type: vless, uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: 5tMM2VdgddmxOKhdNa3b7i_aXno1g-_61SzkppS2UXQ, short-id: f3c023cc}, servername: addons.mozilla.org, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: "🇲🇩 摩尔多瓦_EH2BE4", server: 89.35.14.34, port: 443, type: vless, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: 99MRki6b93wC-hhDHe9yq3IXE3KtPGw4RkFAnpI-8gg, short-id: aa9884f2982b7d3c}, servername: md5.univesalsrv.com, client-fingerprint: firefox, network: grpc, grpc-opts: {grpc-service-name: app.v1.PushService}, udp: true}
-  - {name: "🇩🇪 德国_6M6PR8", server: 31.77.109.35, port: 443, type: vless, uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: SPyieysl8w1lo950icthB72kn_ElyJXkpCdKqmnjGEY, short-id: 494afdc75f8c2fa8}, servername: d3-de1.cloud-cdn.xyz, client-fingerprint: ios, network: tcp, udp: true}
-  - {name: "🇵🇱 波兰_GI32LE", server: 78.17.109.97, port: 8443, type: vless, uuid: dfe8ea9e-fd77-48e6-86ee-7bc1019de1e7, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: NP5_ymQeqYr_EP7aAPIl3YBRghX60zLq6m74Ht4bFUI, short-id: 2c043ed8}, servername: images.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: "🇵🇱 波兰_89G81O", server: 177.1.192.72, port: 443, type: vless, uuid: 4d852af3-a121-41aa-9aed-4ca40a6f7b4d, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: y3YCXTqEVks0nGfiSwJ43ol4pY69-mWFUZsdmveoVDM, short-id: 46455ff0}, servername: addons.mozilla.org, client-fingerprint: randomized, network: tcp, udp: true}
-  - {name: "🇩🇪 德国_W22L2S", server: 50.7.87.122, port: 443, type: vless, uuid: 9c104116-b231-4626-94cb-6d8fc4d2b000, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: ygxQyBcJzlLgpSl3MCRDDiFET4TT-3wxa4GdG1obkCY, short-id: ba4b2afa9e7193ea}, servername: edge-fr.extazy.net, client-fingerprint: qq, network: tcp, udp: true}
-  - {name: "🇪🇪 爱沙尼亚_9QO6WT", server: 163.245.52.91, port: 443, type: vless, uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: g36Z7YIqJMJP-uv3DBr72X5jvfjyW1qIAxa8TkWmpmQ, short-id: ad6e08b22389abd2}, servername: d3-ee1.cloud-cdn.xyz, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: "🇵🇱 波兰_KZXJD7", server: pl-waw.dontblockmepls.com, port: 2063, type: vless, uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM, short-id: ""}, servername: rusbid.de, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: "🇺🇸 美国_RNNOY5", server: jp.sofast.live, port: 52683, type: vless, uuid: 399b6b23-cc40-4831-a494-61948e2df133, tls: false, tfo: false, skip-cert-verify: false, network: tcp, udp: true}
+  - {name: "🇩🇪 德国_9L89CV", server: 189.24.108.152, port: 59719, type: vless, uuid: cd55b3ae-6833-4eff-be18-55bd92164071, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: cWI4RpOZJqkX1HE9pQIZQ8eNeLWGX8UEzECyRehQnlQ, short-id: 6e6f9fa5decc02}, servername: www.sony.lu, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: "🇩🇪 德国_RR97YN", server: 172.64.229.129, port: 2052, type: vless, uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rain1226, headers: {Host: eu02.123450908.xyz}}, udp: true}
+  - {name: "🇩🇪 德国_7NIHA6", server: 2.28.142.170, port: 443, type: vless, uuid: f774f037-6320-42e3-a97b-6d4a1f018dd5, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: IqFTx4k5VQydmffvavaOHDXBtdgDxX26A6NtsVvDfhw, short-id: d485c3d5248d6b51}, servername: germanytest.tulnaro.ir, client-fingerprint: chrome, network: xhttp, udp: true}
+  - {name: "🇳🇱 荷兰_IMD0HB", server: 157.228.150.34, port: 443, type: vless, uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: NOw-idkk3OCn-N0IRS93leujH4ik-E749O2T5BYJQ0M, short-id: 3cef317b}, servername: addons.mozilla.org, client-fingerprint: randomized, network: tcp, udp: true}
+  - {name: "🇳🇱 荷兰_7URV2G", server: 2.26.231.218, port: 2063, type: vless, uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM, short-id: ""}, servername: rusbid.de, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: "🇲🇩 摩尔多瓦_I9A2I1", server: 89.35.14.34, port: 443, type: vless, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: 99MRki6b93wC-hhDHe9yq3IXE3KtPGw4RkFAnpI-8gg, short-id: aa9884f2982b7d3c}, servername: md5.univesalsrv.com, client-fingerprint: firefox, network: grpc, grpc-opts: {grpc-service-name: app.v1.PushService}, udp: true}
+  - {name: "🇺🇿 乌兹别克斯坦_YR4Z2G", server: 193.202.113.5, port: 443, type: vless, uuid: 6f756511-7fc3-41ba-874b-8cdc8e1b225f, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: 65d6SIYIqiX-SN4vx_BnNiQJ8Lnr0HAgUKoT7WgWRgI, short-id: ee169e93d3c277a1}, servername: edge-uk2.mystatic-cdn.ru, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: "🇵🇱 波兰_X0PGJK", server: 91.108.249.200, port: 705, type: vless, uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: nn7zao7trQrkZv5IjiOPmeWPe-Qtj3tFi14Eon9RHC4, short-id: ""}, servername: www.kayak.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-service-name: ""}, udp: true}
+  - {name: "🇫🇮 芬兰_2MUFSA", server: 157.228.128.59, port: 443, type: vless, uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: QnxkyscHouhaLDJHT47beyenVd4LHi62yfJIeRV01Ws, short-id: 06e00e7c}, servername: addons.mozilla.org, client-fingerprint: randomized, network: tcp, udp: true}
+  - {name: "🇷🇺 俄罗斯_M0X5LJ", server: 159.194.250.154, port: 443, type: vless, uuid: f0482c9d-ff67-4a43-af8e-76fc5d55c250, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: x9yfMdHRe9ZAJJUF9kZnDnO3Y7otoyFBCS9RoaIG3Es, short-id: ""}, servername: api-maps.yandex.ru, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: "🇳🇴 挪威_3QCO42", server: c5fl8w.api-gate.org, port: 443, type: vless, uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: B1g2P-3yW3cQW0WZweSPKUP3lZSQ5pgr8doCYvA0cRg, short-id: df3dc12b0b9b0c93}, servername: ca9.eu-cdn294.com, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: "🇵🇱 波兰_O0A964", server: pl-waw.dontblockmepls.com, port: 2063, type: vless, uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM, short-id: ""}, servername: rusbid.de, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: "🇺🇸 美国_JR5EGX", server: 154.21.94.246, port: 443, type: vless, uuid: ab1249da-9ac8-44c7-89a3-2d337ab25cb2, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: C8Qz7kuyHo9O0oBV9W7ltzL8aPLPzdb1vvt3UkJjtF0, short-id: ea29b7b15bb24d49}, servername: frost.sigy.me, client-fingerprint: firefox, network: tcp, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -27,20 +27,20 @@ proxy-groups:
       - "♻️ 自动选择"
       - DIRECT
       - 8元老牌专线机场：cczzuu.top
-      - "🇺🇸 美国_6JQZJQ"
-      - "🇺🇸 美国_SSP6CM"
-      - "🇺🇸 美国_TJGX7K"
-      - "🇩🇪 德国_M3RQMN"
-      - "🇩🇪 德国_SW56HK"
-      - "🇳🇱 荷兰_ZNHQ56"
-      - "🇳🇱 荷兰_0YG49P"
-      - "🇲🇩 摩尔多瓦_EH2BE4"
-      - "🇩🇪 德国_6M6PR8"
-      - "🇵🇱 波兰_GI32LE"
-      - "🇵🇱 波兰_89G81O"
-      - "🇩🇪 德国_W22L2S"
-      - "🇪🇪 爱沙尼亚_9QO6WT"
-      - "🇵🇱 波兰_KZXJD7"
+      - "🇺🇸 美国_RNNOY5"
+      - "🇩🇪 德国_9L89CV"
+      - "🇩🇪 德国_RR97YN"
+      - "🇩🇪 德国_7NIHA6"
+      - "🇳🇱 荷兰_IMD0HB"
+      - "🇳🇱 荷兰_7URV2G"
+      - "🇲🇩 摩尔多瓦_I9A2I1"
+      - "🇺🇿 乌兹别克斯坦_YR4Z2G"
+      - "🇵🇱 波兰_X0PGJK"
+      - "🇫🇮 芬兰_2MUFSA"
+      - "🇷🇺 俄罗斯_M0X5LJ"
+      - "🇳🇴 挪威_3QCO42"
+      - "🇵🇱 波兰_O0A964"
+      - "🇺🇸 美国_JR5EGX"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -48,20 +48,20 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 8元老牌专线机场：cczzuu.top
-      - "🇺🇸 美国_6JQZJQ"
-      - "🇺🇸 美国_SSP6CM"
-      - "🇺🇸 美国_TJGX7K"
-      - "🇩🇪 德国_M3RQMN"
-      - "🇩🇪 德国_SW56HK"
-      - "🇳🇱 荷兰_ZNHQ56"
-      - "🇳🇱 荷兰_0YG49P"
-      - "🇲🇩 摩尔多瓦_EH2BE4"
-      - "🇩🇪 德国_6M6PR8"
-      - "🇵🇱 波兰_GI32LE"
-      - "🇵🇱 波兰_89G81O"
-      - "🇩🇪 德国_W22L2S"
-      - "🇪🇪 爱沙尼亚_9QO6WT"
-      - "🇵🇱 波兰_KZXJD7"
+      - "🇺🇸 美国_RNNOY5"
+      - "🇩🇪 德国_9L89CV"
+      - "🇩🇪 德国_RR97YN"
+      - "🇩🇪 德国_7NIHA6"
+      - "🇳🇱 荷兰_IMD0HB"
+      - "🇳🇱 荷兰_7URV2G"
+      - "🇲🇩 摩尔多瓦_I9A2I1"
+      - "🇺🇿 乌兹别克斯坦_YR4Z2G"
+      - "🇵🇱 波兰_X0PGJK"
+      - "🇫🇮 芬兰_2MUFSA"
+      - "🇷🇺 俄罗斯_M0X5LJ"
+      - "🇳🇴 挪威_3QCO42"
+      - "🇵🇱 波兰_O0A964"
+      - "🇺🇸 美国_JR5EGX"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -69,80 +69,80 @@ proxy-groups:
       - "♻️ 自动选择"
       - "🎯 全球直连"
       - 8元老牌专线机场：cczzuu.top
-      - "🇺🇸 美国_6JQZJQ"
-      - "🇺🇸 美国_SSP6CM"
-      - "🇺🇸 美国_TJGX7K"
-      - "🇩🇪 德国_M3RQMN"
-      - "🇩🇪 德国_SW56HK"
-      - "🇳🇱 荷兰_ZNHQ56"
-      - "🇳🇱 荷兰_0YG49P"
-      - "🇲🇩 摩尔多瓦_EH2BE4"
-      - "🇩🇪 德国_6M6PR8"
-      - "🇵🇱 波兰_GI32LE"
-      - "🇵🇱 波兰_89G81O"
-      - "🇩🇪 德国_W22L2S"
-      - "🇪🇪 爱沙尼亚_9QO6WT"
-      - "🇵🇱 波兰_KZXJD7"
+      - "🇺🇸 美国_RNNOY5"
+      - "🇩🇪 德国_9L89CV"
+      - "🇩🇪 德国_RR97YN"
+      - "🇩🇪 德国_7NIHA6"
+      - "🇳🇱 荷兰_IMD0HB"
+      - "🇳🇱 荷兰_7URV2G"
+      - "🇲🇩 摩尔多瓦_I9A2I1"
+      - "🇺🇿 乌兹别克斯坦_YR4Z2G"
+      - "🇵🇱 波兰_X0PGJK"
+      - "🇫🇮 芬兰_2MUFSA"
+      - "🇷🇺 俄罗斯_M0X5LJ"
+      - "🇳🇴 挪威_3QCO42"
+      - "🇵🇱 波兰_O0A964"
+      - "🇺🇸 美国_JR5EGX"
   - name: 📲 电报信息
     type: select
     proxies:
       - "🚀 节点选择"
       - "🎯 全球直连"
       - 8元老牌专线机场：cczzuu.top
-      - "🇺🇸 美国_6JQZJQ"
-      - "🇺🇸 美国_SSP6CM"
-      - "🇺🇸 美国_TJGX7K"
-      - "🇩🇪 德国_M3RQMN"
-      - "🇩🇪 德国_SW56HK"
-      - "🇳🇱 荷兰_ZNHQ56"
-      - "🇳🇱 荷兰_0YG49P"
-      - "🇲🇩 摩尔多瓦_EH2BE4"
-      - "🇩🇪 德国_6M6PR8"
-      - "🇵🇱 波兰_GI32LE"
-      - "🇵🇱 波兰_89G81O"
-      - "🇩🇪 德国_W22L2S"
-      - "🇪🇪 爱沙尼亚_9QO6WT"
-      - "🇵🇱 波兰_KZXJD7"
+      - "🇺🇸 美国_RNNOY5"
+      - "🇩🇪 德国_9L89CV"
+      - "🇩🇪 德国_RR97YN"
+      - "🇩🇪 德国_7NIHA6"
+      - "🇳🇱 荷兰_IMD0HB"
+      - "🇳🇱 荷兰_7URV2G"
+      - "🇲🇩 摩尔多瓦_I9A2I1"
+      - "🇺🇿 乌兹别克斯坦_YR4Z2G"
+      - "🇵🇱 波兰_X0PGJK"
+      - "🇫🇮 芬兰_2MUFSA"
+      - "🇷🇺 俄罗斯_M0X5LJ"
+      - "🇳🇴 挪威_3QCO42"
+      - "🇵🇱 波兰_O0A964"
+      - "🇺🇸 美国_JR5EGX"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - "🎯 全球直连"
       - "🚀 节点选择"
       - 8元老牌专线机场：cczzuu.top
-      - "🇺🇸 美国_6JQZJQ"
-      - "🇺🇸 美国_SSP6CM"
-      - "🇺🇸 美国_TJGX7K"
-      - "🇩🇪 德国_M3RQMN"
-      - "🇩🇪 德国_SW56HK"
-      - "🇳🇱 荷兰_ZNHQ56"
-      - "🇳🇱 荷兰_0YG49P"
-      - "🇲🇩 摩尔多瓦_EH2BE4"
-      - "🇩🇪 德国_6M6PR8"
-      - "🇵🇱 波兰_GI32LE"
-      - "🇵🇱 波兰_89G81O"
-      - "🇩🇪 德国_W22L2S"
-      - "🇪🇪 爱沙尼亚_9QO6WT"
-      - "🇵🇱 波兰_KZXJD7"
+      - "🇺🇸 美国_RNNOY5"
+      - "🇩🇪 德国_9L89CV"
+      - "🇩🇪 德国_RR97YN"
+      - "🇩🇪 德国_7NIHA6"
+      - "🇳🇱 荷兰_IMD0HB"
+      - "🇳🇱 荷兰_7URV2G"
+      - "🇲🇩 摩尔多瓦_I9A2I1"
+      - "🇺🇿 乌兹别克斯坦_YR4Z2G"
+      - "🇵🇱 波兰_X0PGJK"
+      - "🇫🇮 芬兰_2MUFSA"
+      - "🇷🇺 俄罗斯_M0X5LJ"
+      - "🇳🇴 挪威_3QCO42"
+      - "🇵🇱 波兰_O0A964"
+      - "🇺🇸 美国_JR5EGX"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - "🚀 节点选择"
       - "🎯 全球直连"
       - 8元老牌专线机场：cczzuu.top
-      - "🇺🇸 美国_6JQZJQ"
-      - "🇺🇸 美国_SSP6CM"
-      - "🇺🇸 美国_TJGX7K"
-      - "🇩🇪 德国_M3RQMN"
-      - "🇩🇪 德国_SW56HK"
-      - "🇳🇱 荷兰_ZNHQ56"
-      - "🇳🇱 荷兰_0YG49P"
-      - "🇲🇩 摩尔多瓦_EH2BE4"
-      - "🇩🇪 德国_6M6PR8"
-      - "🇵🇱 波兰_GI32LE"
-      - "🇵🇱 波兰_89G81O"
-      - "🇩🇪 德国_W22L2S"
-      - "🇪🇪 爱沙尼亚_9QO6WT"
-      - "🇵🇱 波兰_KZXJD7"
+      - "🇺🇸 美国_RNNOY5"
+      - "🇩🇪 德国_9L89CV"
+      - "🇩🇪 德国_RR97YN"
+      - "🇩🇪 德国_7NIHA6"
+      - "🇳🇱 荷兰_IMD0HB"
+      - "🇳🇱 荷兰_7URV2G"
+      - "🇲🇩 摩尔多瓦_I9A2I1"
+      - "🇺🇿 乌兹别克斯坦_YR4Z2G"
+      - "🇵🇱 波兰_X0PGJK"
+      - "🇫🇮 芬兰_2MUFSA"
+      - "🇷🇺 俄罗斯_M0X5LJ"
+      - "🇳🇴 挪威_3QCO42"
+      - "🇵🇱 波兰_O0A964"
+      - "🇺🇸 美国_JR5EGX"
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -150,20 +150,20 @@ proxy-groups:
       - "🎯 全球直连"
       - "♻️ 自动选择"
       - 8元老牌专线机场：cczzuu.top
-      - "🇺🇸 美国_6JQZJQ"
-      - "🇺🇸 美国_SSP6CM"
-      - "🇺🇸 美国_TJGX7K"
-      - "🇩🇪 德国_M3RQMN"
-      - "🇩🇪 德国_SW56HK"
-      - "🇳🇱 荷兰_ZNHQ56"
-      - "🇳🇱 荷兰_0YG49P"
-      - "🇲🇩 摩尔多瓦_EH2BE4"
-      - "🇩🇪 德国_6M6PR8"
-      - "🇵🇱 波兰_GI32LE"
-      - "🇵🇱 波兰_89G81O"
-      - "🇩🇪 德国_W22L2S"
-      - "🇪🇪 爱沙尼亚_9QO6WT"
-      - "🇵🇱 波兰_KZXJD7"
+      - "🇺🇸 美国_RNNOY5"
+      - "🇩🇪 德国_9L89CV"
+      - "🇩🇪 德国_RR97YN"
+      - "🇩🇪 德国_7NIHA6"
+      - "🇳🇱 荷兰_IMD0HB"
+      - "🇳🇱 荷兰_7URV2G"
+      - "🇲🇩 摩尔多瓦_I9A2I1"
+      - "🇺🇿 乌兹别克斯坦_YR4Z2G"
+      - "🇵🇱 波兰_X0PGJK"
+      - "🇫🇮 芬兰_2MUFSA"
+      - "🇷🇺 俄罗斯_M0X5LJ"
+      - "🇳🇴 挪威_3QCO42"
+      - "🇵🇱 波兰_O0A964"
+      - "🇺🇸 美国_JR5EGX"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -187,20 +187,20 @@ proxy-groups:
       - "🎯 全球直连"
       - "♻️ 自动选择"
       - 8元老牌专线机场：cczzuu.top
-      - "🇺🇸 美国_6JQZJQ"
-      - "🇺🇸 美国_SSP6CM"
-      - "🇺🇸 美国_TJGX7K"
-      - "🇩🇪 德国_M3RQMN"
-      - "🇩🇪 德国_SW56HK"
-      - "🇳🇱 荷兰_ZNHQ56"
-      - "🇳🇱 荷兰_0YG49P"
-      - "🇲🇩 摩尔多瓦_EH2BE4"
-      - "🇩🇪 德国_6M6PR8"
-      - "🇵🇱 波兰_GI32LE"
-      - "🇵🇱 波兰_89G81O"
-      - "🇩🇪 德国_W22L2S"
-      - "🇪🇪 爱沙尼亚_9QO6WT"
-      - "🇵🇱 波兰_KZXJD7"
+      - "🇺🇸 美国_RNNOY5"
+      - "🇩🇪 德国_9L89CV"
+      - "🇩🇪 德国_RR97YN"
+      - "🇩🇪 德国_7NIHA6"
+      - "🇳🇱 荷兰_IMD0HB"
+      - "🇳🇱 荷兰_7URV2G"
+      - "🇲🇩 摩尔多瓦_I9A2I1"
+      - "🇺🇿 乌兹别克斯坦_YR4Z2G"
+      - "🇵🇱 波兰_X0PGJK"
+      - "🇫🇮 芬兰_2MUFSA"
+      - "🇷🇺 俄罗斯_M0X5LJ"
+      - "🇳🇴 挪威_3QCO42"
+      - "🇵🇱 波兰_O0A964"
+      - "🇺🇸 美国_JR5EGX"
 
 rule-providers:
   reject:
