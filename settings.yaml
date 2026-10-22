@@ -5,193 +5,318 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 8元老牌专线机场：cczzuu.top, server: 47.238.210.5, port: 13779, type: vless, uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg, short-id: af1bdd293097b664}, servername: tesla.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: "🇺🇸 美国_M1IY3K", server: us22.sofast.live, port: 58011, type: vless, uuid: 0afc6426-606c-48e7-bd70-3c424a416842, tls: false, tfo: false, skip-cert-verify: false, network: tcp, udp: true}
-  - {name: "🇺🇸 美国_4PORSH", server: jp.sofast.live, port: 52683, type: vless, uuid: 399b6b23-cc40-4831-a494-61948e2df133, tls: false, tfo: false, skip-cert-verify: false, network: tcp, udp: true}
-  - {name: "🇳🇱 荷兰_BJ6QR6", server: netherlands02.azotvpn.xyz, port: 443, type: vless, uuid: a500be68-4ff6-433b-9968-472be69fab14, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: ui9MLRYZIz7S6_1E4fZgoamwTypfQAMwJ1olxGcWomE, short-id: fc70174007a393b4}, servername: netherlands02.azotvpn.xyz, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: "🇨🇦 加拿大_UQV8QT", server: 38.49.210.79, port: 40000, type: socks5, udp: true, username: Og==, password: Og==}
-  - {name: "🇨🇦 加拿大_PF7XP6", server: 104.16.162.89, port: 8080, type: vless, uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sg-melbi, headers: {Host: hhlfy.twiladaphne.ndjp.net}}, udp: true}
-  - {name: "🇮🇪 爱尔兰_CPN5KV", server: 3.252.104.83, port: 443, type: vless, uuid: 7060231d-b9ba-495f-a218-bf427940cf3e, tls: false, tfo: false, skip-cert-verify: false, network: tcp, udp: true}
-  - {name: "🇩🇪 德国_42RNQS", server: 31.59.216.141, port: 443, type: vless, uuid: c6cfcc53-9271-4ef7-88c5-5141621c8db1, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: 7zsU1U-30jh-qqfmqZukMfoqHB75ksKFA5aQFi8LGW4, short-id: 70b4ca}, servername: 193.23.216.239.cdn-one.org, network: tcp, udp: true}
-  - {name: "🇹🇷 土耳其_KIWE60", server: 45.74.158.57, port: 2218, type: vless, uuid: 4476ca08-bdb4-41c1-bae4-a960bdb28c19, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU, short-id: cc80ef}, servername: www.apple.com, network: tcp, udp: true}
-  - {name: "🇺🇸 美国_PTXHI0", server: 78.17.178.125, port: 443, type: vless, uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: jcp4Lj_qYzxtkalm_XFjrmvqEMGRG7sb19yMwLe16WE, short-id: e0215064d8d1fd7c}, servername: cdn.tbank.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: "🇮🇹 意大利_ERPXK1", server: 202.50.253.45, port: 19999, type: ss, udp: true, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
-  - {name: "🇮🇹 意大利_0ULJ81", server: 202.50.253.99, port: 19999, type: ss, udp: true, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
-  - {name: "🇮🇹 意大利_O7CY1N", server: 202.50.253.18, port: 19999, type: ss, udp: true, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
-  - {name: "🇯🇵 日本_9J3NBX", server: 154.36.158.197, port: 8388, type: ss, udp: true, cipher: aes-256-gcm, password: BeaUf9c0AEWH40Pu}
+- name: 8元老牌专线机场：cczzuu.top
+  server: 47.238.210.5
+  port: 13779
+  type: vless
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+  tls: true
+  tfo: false
+  skip-cert-verify: false
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+    short-id: af1bdd293097b664
+  servername: tesla.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇩🇪 德国_6636B738B3
+  server: 31.59.216.141
+  port: 443
+  type: vless
+  uuid: c6cfcc53-9271-4ef7-88c5-5141621c8db1
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+  reality-opts:
+    public-key: 7zsU1U-30jh-qqfmqZukMfoqHB75ksKFA5aQFi8LGW4
+    short-id: 70b4ca
+  servername: 193.23.216.239.cdn-one.org
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇺🇸 美国_20F8664918
+  server: us22.sofast.live
+  port: 58011
+  type: vless
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+  tls: false
+  tfo: false
+  skip-cert-verify: false
+  network: tcp
+  udp: true
+- name: 🇷🇺 俄罗斯_38B65C2E42
+  server: 45.128.78.178
+  port: 443
+  type: vless
+  uuid: 261160d5-0343-4b85-8c28-3d40dd681559
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  servername: ozon.ru
+  client-fingerprint: ios
+  network: tcp
+  udp: true
+- name: 🇹🇷 土耳其_D597D2FD38
+  server: 45.74.158.57
+  port: 2218
+  type: vless
+  uuid: 4476ca08-bdb4-41c1-bae4-a960bdb28c19
+  tls: true
+  tfo: false
+  skip-cert-verify: false
+  reality-opts:
+    public-key: bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU
+    short-id: cc80ef
+  servername: www.apple.com
+  network: tcp
+  udp: true
+- name: 🇮🇹 意大利_6EEC60A5C2
+  server: 202.50.253.90
+  port: 19999
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱 荷兰_071D08B4CF
+  server: 77.239.110.89
+  port: 443
+  type: vless
+  uuid: a500be68-4ff6-433b-9968-472be69fab14
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+  reality-opts:
+    public-key: ui9MLRYZIz7S6_1E4fZgoamwTypfQAMwJ1olxGcWomE
+    short-id: fc70174007a393b4
+  servername: netherlands02.azotvpn.xyz
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
+- name: 🇮🇹 意大利_2B96A540F5
+  server: 202.50.253.45
+  port: 19999
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 意大利_7318A53368
+  server: 202.50.253.36
+  port: 19999
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸 美国_FB39932B48
+  server: jp.sofast.live
+  port: 52683
+  type: vless
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133
+  tls: false
+  tfo: false
+  skip-cert-verify: false
+  network: tcp
+  udp: true
+- name: 🇮🇹 意大利_2D82A2F628
+  server: 202.50.253.54
+  port: 19999
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸 美国_16E0F127ED
+  server: 78.17.178.125
+  port: 443
+  type: vless
+  uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+  reality-opts:
+    public-key: jcp4Lj_qYzxtkalm_XFjrmvqEMGRG7sb19yMwLe16WE
+    short-id: e0215064d8d1fd7c
+  servername: cdn.tbank.ru
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇫🇷 法国_B8A1B9FAF9
+  server: 213.199.47.140
+  port: 1080
+  type: socks5
+  udp: true
+  username: Og==
 proxy-groups:
-  - name: 🚀 节点选择
-    type: select
-    proxies:
-      - "♻️ 自动选择"
-      - DIRECT
-      - 8元老牌专线机场：cczzuu.top
-      - "🇺🇸 美国_M1IY3K"
-      - "🇺🇸 美国_4PORSH"
-      - "🇳🇱 荷兰_BJ6QR6"
-      - "🇨🇦 加拿大_UQV8QT"
-      - "🇨🇦 加拿大_PF7XP6"
-      - "🇮🇪 爱尔兰_CPN5KV"
-      - "🇩🇪 德国_42RNQS"
-      - "🇹🇷 土耳其_KIWE60"
-      - "🇺🇸 美国_PTXHI0"
-      - "🇮🇹 意大利_ERPXK1"
-      - "🇮🇹 意大利_0ULJ81"
-      - "🇮🇹 意大利_O7CY1N"
-      - "🇯🇵 日本_9J3NBX"
-  - name: ♻️ 自动选择
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - 8元老牌专线机场：cczzuu.top
-      - "🇺🇸 美国_M1IY3K"
-      - "🇺🇸 美国_4PORSH"
-      - "🇳🇱 荷兰_BJ6QR6"
-      - "🇨🇦 加拿大_UQV8QT"
-      - "🇨🇦 加拿大_PF7XP6"
-      - "🇮🇪 爱尔兰_CPN5KV"
-      - "🇩🇪 德国_42RNQS"
-      - "🇹🇷 土耳其_KIWE60"
-      - "🇺🇸 美国_PTXHI0"
-      - "🇮🇹 意大利_ERPXK1"
-      - "🇮🇹 意大利_0ULJ81"
-      - "🇮🇹 意大利_O7CY1N"
-      - "🇯🇵 日本_9J3NBX"
-  - name: 🌍 国外媒体
-    type: select
-    proxies:
-      - "🚀 节点选择"
-      - "♻️ 自动选择"
-      - "🎯 全球直连"
-      - 8元老牌专线机场：cczzuu.top
-      - "🇺🇸 美国_M1IY3K"
-      - "🇺🇸 美国_4PORSH"
-      - "🇳🇱 荷兰_BJ6QR6"
-      - "🇨🇦 加拿大_UQV8QT"
-      - "🇨🇦 加拿大_PF7XP6"
-      - "🇮🇪 爱尔兰_CPN5KV"
-      - "🇩🇪 德国_42RNQS"
-      - "🇹🇷 土耳其_KIWE60"
-      - "🇺🇸 美国_PTXHI0"
-      - "🇮🇹 意大利_ERPXK1"
-      - "🇮🇹 意大利_0ULJ81"
-      - "🇮🇹 意大利_O7CY1N"
-      - "🇯🇵 日本_9J3NBX"
-  - name: 📲 电报信息
-    type: select
-    proxies:
-      - "🚀 节点选择"
-      - "🎯 全球直连"
-      - 8元老牌专线机场：cczzuu.top
-      - "🇺🇸 美国_M1IY3K"
-      - "🇺🇸 美国_4PORSH"
-      - "🇳🇱 荷兰_BJ6QR6"
-      - "🇨🇦 加拿大_UQV8QT"
-      - "🇨🇦 加拿大_PF7XP6"
-      - "🇮🇪 爱尔兰_CPN5KV"
-      - "🇩🇪 德国_42RNQS"
-      - "🇹🇷 土耳其_KIWE60"
-      - "🇺🇸 美国_PTXHI0"
-      - "🇮🇹 意大利_ERPXK1"
-      - "🇮🇹 意大利_0ULJ81"
-      - "🇮🇹 意大利_O7CY1N"
-      - "🇯🇵 日本_9J3NBX"
-  - name: Ⓜ️ 微软服务
-    type: select
-    proxies:
-      - "🎯 全球直连"
-      - "🚀 节点选择"
-      - 8元老牌专线机场：cczzuu.top
-      - "🇺🇸 美国_M1IY3K"
-      - "🇺🇸 美国_4PORSH"
-      - "🇳🇱 荷兰_BJ6QR6"
-      - "🇨🇦 加拿大_UQV8QT"
-      - "🇨🇦 加拿大_PF7XP6"
-      - "🇮🇪 爱尔兰_CPN5KV"
-      - "🇩🇪 德国_42RNQS"
-      - "🇹🇷 土耳其_KIWE60"
-      - "🇺🇸 美国_PTXHI0"
-      - "🇮🇹 意大利_ERPXK1"
-      - "🇮🇹 意大利_0ULJ81"
-      - "🇮🇹 意大利_O7CY1N"
-      - "🇯🇵 日本_9J3NBX"
-  - name: 🍎 苹果服务
-    type: select
-    proxies:
-      - "🚀 节点选择"
-      - "🎯 全球直连"
-      - 8元老牌专线机场：cczzuu.top
-      - "🇺🇸 美国_M1IY3K"
-      - "🇺🇸 美国_4PORSH"
-      - "🇳🇱 荷兰_BJ6QR6"
-      - "🇨🇦 加拿大_UQV8QT"
-      - "🇨🇦 加拿大_PF7XP6"
-      - "🇮🇪 爱尔兰_CPN5KV"
-      - "🇩🇪 德国_42RNQS"
-      - "🇹🇷 土耳其_KIWE60"
-      - "🇺🇸 美国_PTXHI0"
-      - "🇮🇹 意大利_ERPXK1"
-      - "🇮🇹 意大利_0ULJ81"
-      - "🇮🇹 意大利_O7CY1N"
-      - "🇯🇵 日本_9J3NBX"
-  - name: 📢 谷歌FCM
-    type: select
-    proxies:
-      - "🚀 节点选择"
-      - "🎯 全球直连"
-      - "♻️ 自动选择"
-      - 8元老牌专线机场：cczzuu.top
-      - "🇺🇸 美国_M1IY3K"
-      - "🇺🇸 美国_4PORSH"
-      - "🇳🇱 荷兰_BJ6QR6"
-      - "🇨🇦 加拿大_UQV8QT"
-      - "🇨🇦 加拿大_PF7XP6"
-      - "🇮🇪 爱尔兰_CPN5KV"
-      - "🇩🇪 德国_42RNQS"
-      - "🇹🇷 土耳其_KIWE60"
-      - "🇺🇸 美国_PTXHI0"
-      - "🇮🇹 意大利_ERPXK1"
-      - "🇮🇹 意大利_0ULJ81"
-      - "🇮🇹 意大利_O7CY1N"
-      - "🇯🇵 日本_9J3NBX"
-  - name: 🎯 全球直连
-    type: select
-    proxies:
-      - DIRECT
-      - "🚀 节点选择"
-      - "♻️ 自动选择"
-  - name: 🛑 全球拦截
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
-  - name: 🍃 应用净化
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
-  - name: 🐟 漏网之鱼
-    type: select
-    proxies:
-      - "🚀 节点选择"
-      - "🎯 全球直连"
-      - "♻️ 自动选择"
-      - 8元老牌专线机场：cczzuu.top
-      - "🇺🇸 美国_M1IY3K"
-      - "🇺🇸 美国_4PORSH"
-      - "🇳🇱 荷兰_BJ6QR6"
-      - "🇨🇦 加拿大_UQV8QT"
-      - "🇨🇦 加拿大_PF7XP6"
-      - "🇮🇪 爱尔兰_CPN5KV"
-      - "🇩🇪 德国_42RNQS"
-      - "🇹🇷 土耳其_KIWE60"
-      - "🇺🇸 美国_PTXHI0"
-      - "🇮🇹 意大利_ERPXK1"
-      - "🇮🇹 意大利_0ULJ81"
-      - "🇮🇹 意大利_O7CY1N"
-      - "🇯🇵 日本_9J3NBX"
+- name: 🚀 节点选择
+  type: select
+  proxies:
+  - ♻️ 自动选择
+  - DIRECT
+  - 8元老牌专线机场：cczzuu.top
+  - 🇩🇪 德国_6636B738B3
+  - 🇺🇸 美国_20F8664918
+  - 🇷🇺 俄罗斯_38B65C2E42
+  - 🇹🇷 土耳其_D597D2FD38
+  - 🇮🇹 意大利_6EEC60A5C2
+  - 🇳🇱 荷兰_071D08B4CF
+  - 🇮🇹 意大利_2B96A540F5
+  - 🇮🇹 意大利_7318A53368
+  - 🇺🇸 美国_FB39932B48
+  - 🇮🇹 意大利_2D82A2F628
+  - 🇺🇸 美国_16E0F127ED
+  - 🇫🇷 法国_B8A1B9FAF9
+- name: ♻️ 自动选择
+  type: url-test
+  proxies:
+  - 8元老牌专线机场：cczzuu.top
+  - 🇩🇪 德国_6636B738B3
+  - 🇺🇸 美国_20F8664918
+  - 🇷🇺 俄罗斯_38B65C2E42
+  - 🇹🇷 土耳其_D597D2FD38
+  - 🇮🇹 意大利_6EEC60A5C2
+  - 🇳🇱 荷兰_071D08B4CF
+  - 🇮🇹 意大利_2B96A540F5
+  - 🇮🇹 意大利_7318A53368
+  - 🇺🇸 美国_FB39932B48
+  - 🇮🇹 意大利_2D82A2F628
+  - 🇺🇸 美国_16E0F127ED
+  - 🇫🇷 法国_B8A1B9FAF9
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+- name: 🌍 国外媒体
+  type: select
+  proxies:
+  - 🚀 节点选择
+  - ♻️ 自动选择
+  - 🎯 全球直连
+  - 8元老牌专线机场：cczzuu.top
+  - 🇩🇪 德国_6636B738B3
+  - 🇺🇸 美国_20F8664918
+  - 🇷🇺 俄罗斯_38B65C2E42
+  - 🇹🇷 土耳其_D597D2FD38
+  - 🇮🇹 意大利_6EEC60A5C2
+  - 🇳🇱 荷兰_071D08B4CF
+  - 🇮🇹 意大利_2B96A540F5
+  - 🇮🇹 意大利_7318A53368
+  - 🇺🇸 美国_FB39932B48
+  - 🇮🇹 意大利_2D82A2F628
+  - 🇺🇸 美国_16E0F127ED
+  - 🇫🇷 法国_B8A1B9FAF9
+- name: 📲 电报信息
+  type: select
+  proxies:
+  - 🚀 节点选择
+  - 🎯 全球直连
+  - 8元老牌专线机场：cczzuu.top
+  - 🇩🇪 德国_6636B738B3
+  - 🇺🇸 美国_20F8664918
+  - 🇷🇺 俄罗斯_38B65C2E42
+  - 🇹🇷 土耳其_D597D2FD38
+  - 🇮🇹 意大利_6EEC60A5C2
+  - 🇳🇱 荷兰_071D08B4CF
+  - 🇮🇹 意大利_2B96A540F5
+  - 🇮🇹 意大利_7318A53368
+  - 🇺🇸 美国_FB39932B48
+  - 🇮🇹 意大利_2D82A2F628
+  - 🇺🇸 美国_16E0F127ED
+  - 🇫🇷 法国_B8A1B9FAF9
+- name: Ⓜ️ 微软服务
+  type: select
+  proxies:
+  - 🎯 全球直连
+  - 🚀 节点选择
+  - 8元老牌专线机场：cczzuu.top
+  - 🇩🇪 德国_6636B738B3
+  - 🇺🇸 美国_20F8664918
+  - 🇷🇺 俄罗斯_38B65C2E42
+  - 🇹🇷 土耳其_D597D2FD38
+  - 🇮🇹 意大利_6EEC60A5C2
+  - 🇳🇱 荷兰_071D08B4CF
+  - 🇮🇹 意大利_2B96A540F5
+  - 🇮🇹 意大利_7318A53368
+  - 🇺🇸 美国_FB39932B48
+  - 🇮🇹 意大利_2D82A2F628
+  - 🇺🇸 美国_16E0F127ED
+  - 🇫🇷 法国_B8A1B9FAF9
+- name: 🍎 苹果服务
+  type: select
+  proxies:
+  - 🚀 节点选择
+  - 🎯 全球直连
+  - 8元老牌专线机场：cczzuu.top
+  - 🇩🇪 德国_6636B738B3
+  - 🇺🇸 美国_20F8664918
+  - 🇷🇺 俄罗斯_38B65C2E42
+  - 🇹🇷 土耳其_D597D2FD38
+  - 🇮🇹 意大利_6EEC60A5C2
+  - 🇳🇱 荷兰_071D08B4CF
+  - 🇮🇹 意大利_2B96A540F5
+  - 🇮🇹 意大利_7318A53368
+  - 🇺🇸 美国_FB39932B48
+  - 🇮🇹 意大利_2D82A2F628
+  - 🇺🇸 美国_16E0F127ED
+  - 🇫🇷 法国_B8A1B9FAF9
+- name: 📢 谷歌FCM
+  type: select
+  proxies:
+  - 🚀 节点选择
+  - 🎯 全球直连
+  - ♻️ 自动选择
+  - 8元老牌专线机场：cczzuu.top
+  - 🇩🇪 德国_6636B738B3
+  - 🇺🇸 美国_20F8664918
+  - 🇷🇺 俄罗斯_38B65C2E42
+  - 🇹🇷 土耳其_D597D2FD38
+  - 🇮🇹 意大利_6EEC60A5C2
+  - 🇳🇱 荷兰_071D08B4CF
+  - 🇮🇹 意大利_2B96A540F5
+  - 🇮🇹 意大利_7318A53368
+  - 🇺🇸 美国_FB39932B48
+  - 🇮🇹 意大利_2D82A2F628
+  - 🇺🇸 美国_16E0F127ED
+  - 🇫🇷 法国_B8A1B9FAF9
+- name: 🎯 全球直连
+  type: select
+  proxies:
+  - DIRECT
+  - 🚀 节点选择
+  - ♻️ 自动选择
+- name: 🛑 全球拦截
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
+- name: 🍃 应用净化
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
+- name: 🐟 漏网之鱼
+  type: select
+  proxies:
+  - 🚀 节点选择
+  - 🎯 全球直连
+  - ♻️ 自动选择
+  - 8元老牌专线机场：cczzuu.top
+  - 🇩🇪 德国_6636B738B3
+  - 🇺🇸 美国_20F8664918
+  - 🇷🇺 俄罗斯_38B65C2E42
+  - 🇹🇷 土耳其_D597D2FD38
+  - 🇮🇹 意大利_6EEC60A5C2
+  - 🇳🇱 荷兰_071D08B4CF
+  - 🇮🇹 意大利_2B96A540F5
+  - 🇮🇹 意大利_7318A53368
+  - 🇺🇸 美国_FB39932B48
+  - 🇮🇹 意大利_2D82A2F628
+  - 🇺🇸 美国_16E0F127ED
+  - 🇫🇷 法国_B8A1B9FAF9
 
 rule-providers:
   reject:
