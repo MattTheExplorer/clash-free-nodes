@@ -15,6 +15,28 @@ proxies:
   skip-cert-verify: false
   network: tcp
   udp: true
+- name: 🇻🇳 越南_1AB4FB
+  server: funagfrdfs.alixxplay.com
+  port: 55688
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+  reality-opts:
+    public-key: KeV1nArisy7FO5DjqTSmn0hBnlNd38rzhbIMMpe-MBw
+    short-id: a46bb5972cf50671
+  servername: bilibili-vn.biliimg.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇨🇦 加拿大_05D79D
+  server: 149.248.18.106
+  port: 1081
+  type: socks5
+  udp: true
+  username: Og==
 - name: 🇩🇪 德国_B91D81
   server: 103.91.147.212
   port: 443
@@ -31,28 +53,13 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇨🇦 加拿大_05D79D
-  server: 149.248.18.106
-  port: 1081
-  type: socks5
+- name: 🇯🇵 日本_AA37C4
+  server: 154.36.158.197
+  port: 8388
+  type: ss
   udp: true
-  username: Og==
-- name: 🇷🇺 俄罗斯_38B65C
-  server: 45.128.78.178
-  port: 443
-  type: vless
-  uuid: 261160d5-0343-4b85-8c28-3d40dd681559
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: false
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  servername: ozon.ru
-  client-fingerprint: ios
-  network: tcp
-  udp: true
+  cipher: aes-256-gcm
+  password: BeaUf9c0AEWH40Pu
 - name: 🇨🇦 加拿大_87CC3E
   server: 104.27.88.172
   port: 80
@@ -68,34 +75,22 @@ proxies:
     headers:
       Host: web-app-nr6wpa.app-tp57xz.workers.dev
   udp: true
-- name: 🇮🇹 意大利_9A5DD8
-  server: 202.50.253.63
-  port: 19999
-  type: ss
+- name: 🇪🇪 爱沙尼亚_C71723
+  server: l415ng0o.himoy.space
+  port: 443
+  type: vless
+  uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+  reality-opts:
+    public-key: JOoD5ze_pwrMnQoAIRVieQM8SPJjiLJEw1fwx57iYgk
+    short-id: bbd20b213341644c
+  servername: l415ng0o.himoy.space
+  client-fingerprint: firefox
+  network: tcp
   udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利_5C2471
-  server: 202.50.253.27
-  port: 19999
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利_419D63
-  server: 202.50.253.99
-  port: 19999
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利_4A88F5
-  server: 202.50.253.18
-  port: 19999
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇮🇹 意大利_2B96A5
   server: 202.50.253.45
   port: 19999
@@ -117,15 +112,15 @@ proxies:
   servername: www.apple.com
   network: tcp
   udp: true
-- name: 🇮🇹 意大利_6EEC60
-  server: 202.50.253.90
+- name: 🇮🇹 意大利_4A88F5
+  server: 202.50.253.18
   port: 19999
   type: ss
   udp: true
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利_2D82A2
-  server: 202.50.253.54
+- name: 🇮🇹 意大利_419D63
+  server: 202.50.253.99
   port: 19999
   type: ss
   udp: true
@@ -138,62 +133,20 @@ proxies:
   udp: true
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利_7318A5
-  server: 202.50.253.36
+- name: 🇮🇹 意大利_9A5DD8
+  server: 202.50.253.63
   port: 19999
   type: ss
   udp: true
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇪🇪 爱沙尼亚_C71723
-  server: l415ng0o.himoy.space
-  port: 443
-  type: vless
-  uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: false
-  reality-opts:
-    public-key: JOoD5ze_pwrMnQoAIRVieQM8SPJjiLJEw1fwx57iYgk
-    short-id: bbd20b213341644c
-  servername: l415ng0o.himoy.space
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
-- name: 🇮🇹 意大利_9C3F5C
-  server: 202.50.253.81
+- name: 🇮🇹 意大利_5C2471
+  server: 202.50.253.27
   port: 19999
   type: ss
   udp: true
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇹🇷 土耳其_BF48D4
-  server: free.ertebatgoostar.ir
-  port: 443
-  type: vmess
-  udp: true
-  uuid: c9eab439-53bf-46e4-ba58-fc368ae1ee8c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇳🇱 荷兰_7C84BE
-  server: vb41fwol.himoy.space
-  port: 443
-  type: vless
-  uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: false
-  reality-opts:
-    public-key: CwVoZSZr3MQ8IEaxOqmZRolV2Vw5Ve-hwhRLHuOerzg
-    short-id: 44aa59cc84b532ed
-  servername: vb41fwol.himoy.space
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
 - name: 🇺🇸 美国_16E0F1
   server: 78.17.178.125
   port: 443
@@ -210,13 +163,43 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇯🇵 日本_AA37C4
-  server: 154.36.158.197
-  port: 8388
+- name: 🇮🇹 意大利_7318A5
+  server: 202.50.253.36
+  port: 19999
   type: ss
   udp: true
   cipher: aes-256-gcm
-  password: BeaUf9c0AEWH40Pu
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 意大利_9C3F5C
+  server: 202.50.253.81
+  port: 19999
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 意大利_6EEC60
+  server: 202.50.253.90
+  port: 19999
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱 荷兰_7C84BE
+  server: vb41fwol.himoy.space
+  port: 443
+  type: vless
+  uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+  reality-opts:
+    public-key: CwVoZSZr3MQ8IEaxOqmZRolV2Vw5Ve-hwhRLHuOerzg
+    short-id: 44aa59cc84b532ed
+  servername: vb41fwol.himoy.space
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -224,50 +207,46 @@ proxy-groups:
   - ♻️ 自动选择
   - DIRECT
   - 8元老牌专线机场：cczzuu.top
-  - 🇩🇪 德国_B91D81
+  - 🇻🇳 越南_1AB4FB
   - 🇨🇦 加拿大_05D79D
-  - 🇷🇺 俄罗斯_38B65C
+  - 🇩🇪 德国_B91D81
+  - 🇯🇵 日本_AA37C4
   - 🇨🇦 加拿大_87CC3E
-  - 🇮🇹 意大利_9A5DD8
-  - 🇮🇹 意大利_5C2471
-  - 🇮🇹 意大利_419D63
-  - 🇮🇹 意大利_4A88F5
+  - 🇪🇪 爱沙尼亚_C71723
   - 🇮🇹 意大利_2B96A5
   - 🇹🇷 土耳其_D597D2
-  - 🇮🇹 意大利_6EEC60
-  - 🇮🇹 意大利_2D82A2
+  - 🇮🇹 意大利_4A88F5
+  - 🇮🇹 意大利_419D63
   - 🇮🇹 意大利_69461D
-  - 🇮🇹 意大利_7318A5
-  - 🇪🇪 爱沙尼亚_C71723
-  - 🇮🇹 意大利_9C3F5C
-  - 🇹🇷 土耳其_BF48D4
-  - 🇳🇱 荷兰_7C84BE
+  - 🇮🇹 意大利_9A5DD8
+  - 🇮🇹 意大利_5C2471
   - 🇺🇸 美国_16E0F1
-  - 🇯🇵 日本_AA37C4
+  - 🇮🇹 意大利_7318A5
+  - 🇮🇹 意大利_9C3F5C
+  - 🇮🇹 意大利_6EEC60
+  - 🇳🇱 荷兰_7C84BE
 - name: ♻️ 自动选择
   type: url-test
   proxies:
   - 8元老牌专线机场：cczzuu.top
-  - 🇩🇪 德国_B91D81
+  - 🇻🇳 越南_1AB4FB
   - 🇨🇦 加拿大_05D79D
-  - 🇷🇺 俄罗斯_38B65C
+  - 🇩🇪 德国_B91D81
+  - 🇯🇵 日本_AA37C4
   - 🇨🇦 加拿大_87CC3E
-  - 🇮🇹 意大利_9A5DD8
-  - 🇮🇹 意大利_5C2471
-  - 🇮🇹 意大利_419D63
-  - 🇮🇹 意大利_4A88F5
+  - 🇪🇪 爱沙尼亚_C71723
   - 🇮🇹 意大利_2B96A5
   - 🇹🇷 土耳其_D597D2
-  - 🇮🇹 意大利_6EEC60
-  - 🇮🇹 意大利_2D82A2
+  - 🇮🇹 意大利_4A88F5
+  - 🇮🇹 意大利_419D63
   - 🇮🇹 意大利_69461D
-  - 🇮🇹 意大利_7318A5
-  - 🇪🇪 爱沙尼亚_C71723
-  - 🇮🇹 意大利_9C3F5C
-  - 🇹🇷 土耳其_BF48D4
-  - 🇳🇱 荷兰_7C84BE
+  - 🇮🇹 意大利_9A5DD8
+  - 🇮🇹 意大利_5C2471
   - 🇺🇸 美国_16E0F1
-  - 🇯🇵 日本_AA37C4
+  - 🇮🇹 意大利_7318A5
+  - 🇮🇹 意大利_9C3F5C
+  - 🇮🇹 意大利_6EEC60
+  - 🇳🇱 荷兰_7C84BE
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -278,104 +257,96 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 8元老牌专线机场：cczzuu.top
-  - 🇩🇪 德国_B91D81
+  - 🇻🇳 越南_1AB4FB
   - 🇨🇦 加拿大_05D79D
-  - 🇷🇺 俄罗斯_38B65C
+  - 🇩🇪 德国_B91D81
+  - 🇯🇵 日本_AA37C4
   - 🇨🇦 加拿大_87CC3E
-  - 🇮🇹 意大利_9A5DD8
-  - 🇮🇹 意大利_5C2471
-  - 🇮🇹 意大利_419D63
-  - 🇮🇹 意大利_4A88F5
+  - 🇪🇪 爱沙尼亚_C71723
   - 🇮🇹 意大利_2B96A5
   - 🇹🇷 土耳其_D597D2
-  - 🇮🇹 意大利_6EEC60
-  - 🇮🇹 意大利_2D82A2
+  - 🇮🇹 意大利_4A88F5
+  - 🇮🇹 意大利_419D63
   - 🇮🇹 意大利_69461D
-  - 🇮🇹 意大利_7318A5
-  - 🇪🇪 爱沙尼亚_C71723
-  - 🇮🇹 意大利_9C3F5C
-  - 🇹🇷 土耳其_BF48D4
-  - 🇳🇱 荷兰_7C84BE
+  - 🇮🇹 意大利_9A5DD8
+  - 🇮🇹 意大利_5C2471
   - 🇺🇸 美国_16E0F1
-  - 🇯🇵 日本_AA37C4
+  - 🇮🇹 意大利_7318A5
+  - 🇮🇹 意大利_9C3F5C
+  - 🇮🇹 意大利_6EEC60
+  - 🇳🇱 荷兰_7C84BE
 - name: 📲 电报信息
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - 8元老牌专线机场：cczzuu.top
-  - 🇩🇪 德国_B91D81
+  - 🇻🇳 越南_1AB4FB
   - 🇨🇦 加拿大_05D79D
-  - 🇷🇺 俄罗斯_38B65C
+  - 🇩🇪 德国_B91D81
+  - 🇯🇵 日本_AA37C4
   - 🇨🇦 加拿大_87CC3E
-  - 🇮🇹 意大利_9A5DD8
-  - 🇮🇹 意大利_5C2471
-  - 🇮🇹 意大利_419D63
-  - 🇮🇹 意大利_4A88F5
+  - 🇪🇪 爱沙尼亚_C71723
   - 🇮🇹 意大利_2B96A5
   - 🇹🇷 土耳其_D597D2
-  - 🇮🇹 意大利_6EEC60
-  - 🇮🇹 意大利_2D82A2
+  - 🇮🇹 意大利_4A88F5
+  - 🇮🇹 意大利_419D63
   - 🇮🇹 意大利_69461D
-  - 🇮🇹 意大利_7318A5
-  - 🇪🇪 爱沙尼亚_C71723
-  - 🇮🇹 意大利_9C3F5C
-  - 🇹🇷 土耳其_BF48D4
-  - 🇳🇱 荷兰_7C84BE
+  - 🇮🇹 意大利_9A5DD8
+  - 🇮🇹 意大利_5C2471
   - 🇺🇸 美国_16E0F1
-  - 🇯🇵 日本_AA37C4
+  - 🇮🇹 意大利_7318A5
+  - 🇮🇹 意大利_9C3F5C
+  - 🇮🇹 意大利_6EEC60
+  - 🇳🇱 荷兰_7C84BE
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
   - 8元老牌专线机场：cczzuu.top
-  - 🇩🇪 德国_B91D81
+  - 🇻🇳 越南_1AB4FB
   - 🇨🇦 加拿大_05D79D
-  - 🇷🇺 俄罗斯_38B65C
+  - 🇩🇪 德国_B91D81
+  - 🇯🇵 日本_AA37C4
   - 🇨🇦 加拿大_87CC3E
-  - 🇮🇹 意大利_9A5DD8
-  - 🇮🇹 意大利_5C2471
-  - 🇮🇹 意大利_419D63
-  - 🇮🇹 意大利_4A88F5
+  - 🇪🇪 爱沙尼亚_C71723
   - 🇮🇹 意大利_2B96A5
   - 🇹🇷 土耳其_D597D2
-  - 🇮🇹 意大利_6EEC60
-  - 🇮🇹 意大利_2D82A2
+  - 🇮🇹 意大利_4A88F5
+  - 🇮🇹 意大利_419D63
   - 🇮🇹 意大利_69461D
-  - 🇮🇹 意大利_7318A5
-  - 🇪🇪 爱沙尼亚_C71723
-  - 🇮🇹 意大利_9C3F5C
-  - 🇹🇷 土耳其_BF48D4
-  - 🇳🇱 荷兰_7C84BE
+  - 🇮🇹 意大利_9A5DD8
+  - 🇮🇹 意大利_5C2471
   - 🇺🇸 美国_16E0F1
-  - 🇯🇵 日本_AA37C4
+  - 🇮🇹 意大利_7318A5
+  - 🇮🇹 意大利_9C3F5C
+  - 🇮🇹 意大利_6EEC60
+  - 🇳🇱 荷兰_7C84BE
 - name: 🍎 苹果服务
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - 8元老牌专线机场：cczzuu.top
-  - 🇩🇪 德国_B91D81
+  - 🇻🇳 越南_1AB4FB
   - 🇨🇦 加拿大_05D79D
-  - 🇷🇺 俄罗斯_38B65C
+  - 🇩🇪 德国_B91D81
+  - 🇯🇵 日本_AA37C4
   - 🇨🇦 加拿大_87CC3E
-  - 🇮🇹 意大利_9A5DD8
-  - 🇮🇹 意大利_5C2471
-  - 🇮🇹 意大利_419D63
-  - 🇮🇹 意大利_4A88F5
+  - 🇪🇪 爱沙尼亚_C71723
   - 🇮🇹 意大利_2B96A5
   - 🇹🇷 土耳其_D597D2
-  - 🇮🇹 意大利_6EEC60
-  - 🇮🇹 意大利_2D82A2
+  - 🇮🇹 意大利_4A88F5
+  - 🇮🇹 意大利_419D63
   - 🇮🇹 意大利_69461D
-  - 🇮🇹 意大利_7318A5
-  - 🇪🇪 爱沙尼亚_C71723
-  - 🇮🇹 意大利_9C3F5C
-  - 🇹🇷 土耳其_BF48D4
-  - 🇳🇱 荷兰_7C84BE
+  - 🇮🇹 意大利_9A5DD8
+  - 🇮🇹 意大利_5C2471
   - 🇺🇸 美国_16E0F1
-  - 🇯🇵 日本_AA37C4
+  - 🇮🇹 意大利_7318A5
+  - 🇮🇹 意大利_9C3F5C
+  - 🇮🇹 意大利_6EEC60
+  - 🇳🇱 荷兰_7C84BE
 - name: 📢 谷歌FCM
   type: select
   proxies:
@@ -383,26 +354,24 @@ proxy-groups:
   - 🎯 全球直连
   - ♻️ 自动选择
   - 8元老牌专线机场：cczzuu.top
-  - 🇩🇪 德国_B91D81
+  - 🇻🇳 越南_1AB4FB
   - 🇨🇦 加拿大_05D79D
-  - 🇷🇺 俄罗斯_38B65C
+  - 🇩🇪 德国_B91D81
+  - 🇯🇵 日本_AA37C4
   - 🇨🇦 加拿大_87CC3E
-  - 🇮🇹 意大利_9A5DD8
-  - 🇮🇹 意大利_5C2471
-  - 🇮🇹 意大利_419D63
-  - 🇮🇹 意大利_4A88F5
+  - 🇪🇪 爱沙尼亚_C71723
   - 🇮🇹 意大利_2B96A5
   - 🇹🇷 土耳其_D597D2
-  - 🇮🇹 意大利_6EEC60
-  - 🇮🇹 意大利_2D82A2
+  - 🇮🇹 意大利_4A88F5
+  - 🇮🇹 意大利_419D63
   - 🇮🇹 意大利_69461D
-  - 🇮🇹 意大利_7318A5
-  - 🇪🇪 爱沙尼亚_C71723
-  - 🇮🇹 意大利_9C3F5C
-  - 🇹🇷 土耳其_BF48D4
-  - 🇳🇱 荷兰_7C84BE
+  - 🇮🇹 意大利_9A5DD8
+  - 🇮🇹 意大利_5C2471
   - 🇺🇸 美国_16E0F1
-  - 🇯🇵 日本_AA37C4
+  - 🇮🇹 意大利_7318A5
+  - 🇮🇹 意大利_9C3F5C
+  - 🇮🇹 意大利_6EEC60
+  - 🇳🇱 荷兰_7C84BE
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -426,26 +395,24 @@ proxy-groups:
   - 🎯 全球直连
   - ♻️ 自动选择
   - 8元老牌专线机场：cczzuu.top
-  - 🇩🇪 德国_B91D81
+  - 🇻🇳 越南_1AB4FB
   - 🇨🇦 加拿大_05D79D
-  - 🇷🇺 俄罗斯_38B65C
+  - 🇩🇪 德国_B91D81
+  - 🇯🇵 日本_AA37C4
   - 🇨🇦 加拿大_87CC3E
-  - 🇮🇹 意大利_9A5DD8
-  - 🇮🇹 意大利_5C2471
-  - 🇮🇹 意大利_419D63
-  - 🇮🇹 意大利_4A88F5
+  - 🇪🇪 爱沙尼亚_C71723
   - 🇮🇹 意大利_2B96A5
   - 🇹🇷 土耳其_D597D2
-  - 🇮🇹 意大利_6EEC60
-  - 🇮🇹 意大利_2D82A2
+  - 🇮🇹 意大利_4A88F5
+  - 🇮🇹 意大利_419D63
   - 🇮🇹 意大利_69461D
-  - 🇮🇹 意大利_7318A5
-  - 🇪🇪 爱沙尼亚_C71723
-  - 🇮🇹 意大利_9C3F5C
-  - 🇹🇷 土耳其_BF48D4
-  - 🇳🇱 荷兰_7C84BE
+  - 🇮🇹 意大利_9A5DD8
+  - 🇮🇹 意大利_5C2471
   - 🇺🇸 美国_16E0F1
-  - 🇯🇵 日本_AA37C4
+  - 🇮🇹 意大利_7318A5
+  - 🇮🇹 意大利_9C3F5C
+  - 🇮🇹 意大利_6EEC60
+  - 🇳🇱 荷兰_7C84BE
 
 rule-providers:
   reject:
